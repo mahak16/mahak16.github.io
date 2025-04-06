@@ -2,8 +2,10 @@
 import React from 'react';
 import { Code, Laptop, Lightbulb, GraduationCap } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import { useTheme } from '@/context/ThemeProvider';
 
 const About = () => {
+  const { theme } = useTheme();
   const highlights = [
     {
       icon: <Code className="text-portfolio-teal" size={24} />,
@@ -28,7 +30,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="section-padding bg-portfolio-light">
+    <section id="about" className={`section-padding ${theme === 'dark' ? 'bg-gray-900' : 'bg-portfolio-light'}`}>
       <div className="container mx-auto px-4">
         <h2 className="section-title">About Me</h2>
         
@@ -50,14 +52,14 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {highlights.map((item, index) => (
-              <Card key={index} className="bg-white hover:shadow-md transition duration-300">
+              <Card key={index} className={`hover:shadow-md transition duration-300 ${theme === 'dark' ? 'bg-gray-800 text-gray-100' : 'bg-white'}`}>
                 <CardContent className="p-4">
                   <div className="flex flex-col items-center text-center">
-                    <div className="p-3 bg-gray-100 rounded-full mb-4">
+                    <div className={`p-3 rounded-full mb-4 ${theme === 'dark' ? 'bg-gray-700' : 'bg-gray-100'}`}>
                       {item.icon}
                     </div>
                     <h3 className="font-semibold mb-2">{item.title}</h3>
-                    <p className="text-sm text-gray-600">{item.description}</p>
+                    <p className={`text-sm ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>{item.description}</p>
                   </div>
                 </CardContent>
               </Card>
