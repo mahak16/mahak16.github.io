@@ -27,7 +27,13 @@ const SkillBar = ({ skill, level, color }: { skill: string, level: number, color
       <span className="text-sm font-medium">{skill}</span>
       <span className="text-sm text-gray-500">{level}%</span>
     </div>
-    <Progress value={level} className="h-2 bg-gray-200" indicatorClassName={cn("h-2", color)} />
+    <div className="relative w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+      <Progress value={level} className="h-2" />
+      <div 
+        className={cn("absolute top-0 left-0 h-2 rounded-full", color)}
+        style={{ width: `${level}%` }}
+      />
+    </div>
   </div>
 );
 
