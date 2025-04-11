@@ -24,15 +24,8 @@ const ProjectCard = ({ project }: { project: ProjectType }) => {
           ))}
         </div>
         <div className="flex space-x-3 mt-3">
-          {project.demoLink && (
-            <Button asChild size="sm" className="bg-portfolio-teal hover:bg-portfolio-teal/90">
-              <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
-                <ExternalLink size={14} /> Demo
-              </a>
-            </Button>
-          )}
           {project.githubLink && (
-            <Button asChild size="sm" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+            <Button asChild size="sm" className="bg-portfolio-teal hover:bg-portfolio-teal/90">
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
                 <Github size={14} /> Code
               </a>
@@ -51,7 +44,6 @@ type ProjectType = {
   image: string;
   technologies: string[];
   category: 'web' | 'ai' | 'all';
-  demoLink?: string;
   githubLink?: string;
 };
 
@@ -63,8 +55,7 @@ const projects: ProjectType[] = [
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
     technologies: ["HTML", "CSS", "JavaScript"],
     category: "web",
-    demoLink: "https://demo.com/bubble-game",
-    githubLink: "https://github.com/mahakjiwnani/bubble-game"
+    githubLink: "https://github.com/mahak16/js_practice/tree/8254b2848ed7fe60457b29be3b8059a9cf01ae51/Bubble%20Game"
   },
   {
     id: 2,
@@ -73,8 +64,7 @@ const projects: ProjectType[] = [
     image: "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?auto=format&fit=crop&w=800&q=80",
     technologies: ["React", "Vite", "Bolt.ai", "HTML", "CSS", "TypeScript"],
     category: "ai",
-    demoLink: "https://demo.com/ai-study-planner",
-    githubLink: "https://github.com/mahakjiwnani/ai-study-planner"
+    githubLink: "https://github.com/mahak16/demo"
   },
   {
     id: 3,
@@ -83,7 +73,6 @@ const projects: ProjectType[] = [
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
     technologies: ["React", "Tailwind CSS", "Three.js"],
     category: "web",
-    demoLink: "https://demo.com/portfolio",
     githubLink: "https://github.com/mahakjiwnani/portfolio"
   },
   {
@@ -93,7 +82,6 @@ const projects: ProjectType[] = [
     image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&q=80",
     technologies: ["HTML", "CSS", "Tailwind", "JavaScript", "API"],
     category: "ai",
-    demoLink: "https://demo.com/ai-chatbot",
     githubLink: "https://github.com/mahakjiwnani/ai-chatbot"
   }
 ];
