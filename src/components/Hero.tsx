@@ -51,7 +51,7 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-portfolio-purple to-portfolio-teal rounded-full opacity-10 blur-2xl"></div>
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&h=600&q=80" 
+              src="/lovable-uploads/eca7fa72-6275-4918-93ac-b9ec7390debe.png" 
               alt="Mahak Jiwnani" 
               className="rounded-3xl shadow-xl z-10 relative w-[400px] h-[400px] object-cover"
             />

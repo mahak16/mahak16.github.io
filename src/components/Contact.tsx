@@ -135,7 +135,7 @@ const Contact = () => {
                 <ContactInfo 
                   icon={<Phone size={20} />}
                   title="Phone"
-                  content="+91 9876543210"
+                  content={<a href="tel:+919301751212" className="text-portfolio-purple hover:underline">+91 9301751212</a>}
                 />
                 <ContactInfo 
                   icon={<MapPin size={20} />}

@@ -71,7 +71,7 @@ const projects: ProjectType[] = [
     title: "AI Based Study Planner",
     description: "An intelligent planner that uses AI to create personalized study schedules based on learning styles.",
     image: "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?auto=format&fit=crop&w=800&q=80",
-    technologies: ["Python", "TensorFlow", "React", "Flask"],
+    technologies: ["React", "Vite", "Bolt.ai", "HTML", "CSS", "TypeScript"],
     category: "ai",
     demoLink: "https://demo.com/ai-study-planner",
     githubLink: "https://github.com/mahakjiwnani/ai-study-planner"
@@ -91,30 +91,10 @@ const projects: ProjectType[] = [
     title: "AI Integrated Chatbot",
     description: "An intelligent chatbot that provides personalized responses using natural language processing.",
     image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&q=80",
-    technologies: ["Python", "NLTK", "TensorFlow", "React"],
+    technologies: ["HTML", "CSS", "Tailwind", "JavaScript", "API"],
     category: "ai",
     demoLink: "https://demo.com/ai-chatbot",
     githubLink: "https://github.com/mahakjiwnani/ai-chatbot"
-  },
-  {
-    id: 5,
-    title: "Weather Dashboard",
-    description: "A weather application that provides real-time weather data and forecasts.",
-    image: "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?auto=format&fit=crop&w=800&q=80",
-    technologies: ["JavaScript", "React", "Weather API", "CSS"],
-    category: "web",
-    demoLink: "https://demo.com/weather",
-    githubLink: "https://github.com/mahakjiwnani/weather"
-  },
-  {
-    id: 6,
-    title: "E-commerce Platform",
-    description: "A fully responsive e-commerce platform with cart functionality and payment integration.",
-    image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=800&q=80",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    category: "web",
-    demoLink: "https://demo.com/ecommerce",
-    githubLink: "https://github.com/mahakjiwnani/ecommerce"
   }
 ];
 
