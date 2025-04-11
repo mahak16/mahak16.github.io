@@ -58,23 +58,23 @@ type ProjectType = {
 const projects: ProjectType[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A fully responsive e-commerce platform with cart functionality and payment integration.",
+    title: "Bubble Game",
+    description: "An interactive bubble game with scoring and multiple difficulty levels.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+    technologies: ["HTML", "CSS", "JavaScript"],
     category: "web",
-    demoLink: "https://demo.com/ecommerce",
-    githubLink: "https://github.com/mahakjiwnani/ecommerce"
+    demoLink: "https://demo.com/bubble-game",
+    githubLink: "https://github.com/mahakjiwnani/bubble-game"
   },
   {
     id: 2,
-    title: "AI Image Generator",
-    description: "An application that uses machine learning to generate unique images from text descriptions.",
+    title: "AI Based Study Planner",
+    description: "An intelligent planner that uses AI to create personalized study schedules based on learning styles.",
     image: "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?auto=format&fit=crop&w=800&q=80",
     technologies: ["Python", "TensorFlow", "React", "Flask"],
     category: "ai",
-    demoLink: "https://demo.com/ai-image",
-    githubLink: "https://github.com/mahakjiwnani/ai-image"
+    demoLink: "https://demo.com/ai-study-planner",
+    githubLink: "https://github.com/mahakjiwnani/ai-study-planner"
   },
   {
     id: 3,
@@ -88,13 +88,13 @@ const projects: ProjectType[] = [
   },
   {
     id: 4,
-    title: "Chatbot Assistant",
-    description: "An intelligent chatbot that uses NLP to provide helpful responses to user queries.",
+    title: "AI Integrated Chatbot",
+    description: "An intelligent chatbot that provides personalized responses using natural language processing.",
     image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&q=80",
     technologies: ["Python", "NLTK", "TensorFlow", "React"],
     category: "ai",
-    demoLink: "https://demo.com/chatbot",
-    githubLink: "https://github.com/mahakjiwnani/chatbot"
+    demoLink: "https://demo.com/ai-chatbot",
+    githubLink: "https://github.com/mahakjiwnani/ai-chatbot"
   },
   {
     id: 5,
@@ -108,13 +108,13 @@ const projects: ProjectType[] = [
   },
   {
     id: 6,
-    title: "Sentiment Analysis Tool",
-    description: "A tool that analyzes the sentiment of text using machine learning algorithms.",
+    title: "E-commerce Platform",
+    description: "A fully responsive e-commerce platform with cart functionality and payment integration.",
     image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=800&q=80",
-    technologies: ["Python", "NLTK", "Scikit-learn", "Flask"],
-    category: "ai",
-    demoLink: "https://demo.com/sentiment",
-    githubLink: "https://github.com/mahakjiwnani/sentiment"
+    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+    category: "web",
+    demoLink: "https://demo.com/ecommerce",
+    githubLink: "https://github.com/mahakjiwnani/ecommerce"
   }
 ];
 
