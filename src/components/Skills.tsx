@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { CircleCheckIcon, TrendingUpIcon, Code, Database, Globe, Brain } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -15,14 +14,12 @@ const skillsData = {
     { name: "HTML/CSS", level: 90, color: "#E34F26", icon: <Code size={20} /> },
     { name: "JavaScript", level: 85, color: "#F7DF1E", icon: <Code size={20} /> },
     { name: "React", level: 80, color: "#61DAFB", icon: <Code size={20} /> },
-    { name: "TypeScript", level: 75, color: "#3178C6", icon: <Code size={20} /> },
-    { name: "Node.js", level: 70, color: "#339933", icon: <Globe size={20} /> },
-    { name: "Python", level: 65, color: "#3776AB", icon: <Code size={20} /> },
-    { name: "TensorFlow", level: 60, color: "#FF6F00", icon: <Brain size={20} /> },
-    { name: "MongoDB", level: 70, color: "#47A248", icon: <Database size={20} /> },
+    { name: "TypeScript", level: 60, color: "#3178C6", icon: <Code size={20} /> },
+    { name: "Node.js", level: 50, color: "#339933", icon: <Globe size={20} /> },
+    { name: "Python", level: 50, color: "#3776AB", icon: <Code size={20} /> },
   ],
-  frameworks: ["React", "Next.js", "Express.js", "TailwindCSS", "Bootstrap", "Material UI", "Flask"],
-  tools: ["Git", "GitHub", "VS Code", "Figma", "Docker", "Jupyter Notebook", "Postman", "AWS"],
+  frameworks: ["React", "Next.js", "Express.js", "TailwindCSS", "Bootstrap", "Material UI"],
+  tools: ["Git", "GitHub", "VS Code", "Figma", "Docker", "Jupyter Notebook", "Postman"],
   softSkills: ["Problem Solving", "Team Collaboration", "Communication", "Time Management", "Adaptability", "Critical Thinking"]
 };
 

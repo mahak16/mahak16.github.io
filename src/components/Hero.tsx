@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowDownIcon, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowDownIcon, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -38,11 +38,11 @@ const Hero = () => {
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-portfolio-purple transition-colors">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-portfolio-purple transition-colors">
+            <a href="https://www.linkedin.com/in/mahak-jiwnani-webdev" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-portfolio-purple transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-portfolio-purple transition-colors">
-              <Twitter size={20} />
+            <a href="mailto:mahakjiwnani18@gmail.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-portfolio-purple transition-colors">
+              <Mail size={20} />
             </a>
           </div>
         </div>
